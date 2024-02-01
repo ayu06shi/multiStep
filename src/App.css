@@ -1,0 +1,19 @@
+.App{
+    background-image: url("./images/bgimg2.png");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    height: 100vh;
+    /* height:fit-content; */
+}
+
+/* chrome safari and opera browser only */
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* to hide scrollbar from other browsers */
+
+body{
+    -ms-overflow-style: none;/* internet explorer and edge */
+    scrollbar-width: none;/*for firefox*/
+}
